@@ -12,21 +12,12 @@ app.get('/fetch-amazon-orders', (req, res) => {
     const exampleOrders = [
         {
             name: "John Doe",
-            address: "123 Example St, City, ST 12345",
-            product: "24 Note Pedals",
+            address: "123 Example St, City, ST i
+            product: "24 Note uPedals",
             orderDate: "04/19/2025",
             shipByDate: "04/24/2025",
             source: "Amazon",
             completed: false,
             returned: false,
             invoice: "Paid",
-            email: "john@example.com"
-        }
-    ];
-    res.json(exampleOrders);
-});
-
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
-});
+            email: "john@example
