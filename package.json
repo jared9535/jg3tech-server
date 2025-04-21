@@ -1,14 +1,18 @@
 {
   "name": "jg3tech-server",
   "version": "1.0.0",
+  "description": "Server for pulling Amazon orders via SP‑API",
   "main": "server.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "amazon-sp-api": "^1.9.0",      
+    "@scaleleap/amazon-sp-api": "^1.8.0",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
+    "dotenv": "^16.1.4",
     "express": "^4.18.2"
   }
 }
